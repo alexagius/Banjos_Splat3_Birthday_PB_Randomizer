@@ -746,6 +746,160 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/img/stages_splat3/Flounder_Heights.png":
+/*!****************************************************!*\
+  !*** ./src/img/stages_splat3/Flounder_Heights.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Flounder_Heights.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Flounder_Heights.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Hagglefish_Market.png":
+/*!*****************************************************!*\
+  !*** ./src/img/stages_splat3/Hagglefish_Market.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Hagglefish_Market.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Hagglefish_Market.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Hammerhead_Bridge.png":
+/*!*****************************************************!*\
+  !*** ./src/img/stages_splat3/Hammerhead_Bridge.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Hammerhead_Bridge.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Hammerhead_Bridge.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Inkblot_Art_Academy.png":
+/*!*******************************************************!*\
+  !*** ./src/img/stages_splat3/Inkblot_Art_Academy.png ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Inkblot_Art_Academy.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Inkblot_Art_Academy.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Mahi-Mahi_Resort.png":
+/*!****************************************************!*\
+  !*** ./src/img/stages_splat3/Mahi-Mahi_Resort.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Mahi-Mahi_Resort.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Mahi-Mahi_Resort.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/MakoMart.png":
+/*!********************************************!*\
+  !*** ./src/img/stages_splat3/MakoMart.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/MakoMart.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/MakoMart.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Manta_Maria.png":
+/*!***********************************************!*\
+  !*** ./src/img/stages_splat3/Manta_Maria.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Manta_Maria.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Manta_Maria.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Mincemeat_Metalworks.png":
+/*!********************************************************!*\
+  !*** ./src/img/stages_splat3/Mincemeat_Metalworks.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Mincemeat_Metalworks.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Mincemeat_Metalworks.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Museum_dAlfonsino.png":
+/*!*****************************************************!*\
+  !*** ./src/img/stages_splat3/Museum_dAlfonsino.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Museum_dAlfonsino.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Museum_dAlfonsino.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Scorch_Gorge.png":
+/*!************************************************!*\
+  !*** ./src/img/stages_splat3/Scorch_Gorge.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Scorch_Gorge.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Scorch_Gorge.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Sturgeon_Shipyard.png":
+/*!*****************************************************!*\
+  !*** ./src/img/stages_splat3/Sturgeon_Shipyard.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Sturgeon_Shipyard.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Sturgeon_Shipyard.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Umami_Ruins.png":
+/*!***********************************************!*\
+  !*** ./src/img/stages_splat3/Umami_Ruins.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Umami_Ruins.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Umami_Ruins.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Undertow_Spillway.png":
+/*!*****************************************************!*\
+  !*** ./src/img/stages_splat3/Undertow_Spillway.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Undertow_Spillway.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Undertow_Spillway.png?");
+
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Wahoo_World.png":
+/*!***********************************************!*\
+  !*** ./src/img/stages_splat3/Wahoo_World.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/Wahoo_World.png\");\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Wahoo_World.png?");
+
+/***/ }),
+
 /***/ "./node_modules/lodash/lodash.js":
 /*!***************************************!*\
   !*** ./node_modules/lodash/lodash.js ***!
@@ -840,7 +994,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _custom_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./custom.scss */ \"./src/custom.scss\");\n/* harmony import */ var _img_stages_splat3_Brinewater_Springs_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/stages_splat3/Brinewater_Springs.png */ \"./src/img/stages_splat3/Brinewater_Springs.png\");\n/* harmony import */ var _img_stages_splat3_Eeltail_Alley_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/stages_splat3/Eeltail_Alley.png */ \"./src/img/stages_splat3/Eeltail_Alley.png\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n\r\n\r\n\r\n\r\n\r\n function component() {\r\n   const element = document.createElement('div');\r\n\r\n  // Lodash, now imported by this script\r\n   element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\r\n\r\n   const Brinewater = new Image();\r\n      Brinewater.src = _img_stages_splat3_Brinewater_Springs_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\r\n\r\n      element.appendChild(Brinewater);\r\n\r\n   return element;\r\n }\r\n\r\n document.body.appendChild(component());\r\n\r\n\r\n// Import all of Bootstrap's JS\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _custom_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./custom.scss */ \"./src/custom.scss\");\n/* harmony import */ var _img_stages_splat3_Brinewater_Springs_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/stages_splat3/Brinewater_Springs.png */ \"./src/img/stages_splat3/Brinewater_Springs.png\");\n/* harmony import */ var _img_stages_splat3_Eeltail_Alley_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/stages_splat3/Eeltail_Alley.png */ \"./src/img/stages_splat3/Eeltail_Alley.png\");\n/* harmony import */ var _img_stages_splat3_Flounder_Heights_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/stages_splat3/Flounder_Heights.png */ \"./src/img/stages_splat3/Flounder_Heights.png\");\n/* harmony import */ var _img_stages_splat3_Hagglefish_Market_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/stages_splat3/Hagglefish_Market.png */ \"./src/img/stages_splat3/Hagglefish_Market.png\");\n/* harmony import */ var _img_stages_splat3_Hammerhead_Bridge_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/stages_splat3/Hammerhead_Bridge.png */ \"./src/img/stages_splat3/Hammerhead_Bridge.png\");\n/* harmony import */ var _img_stages_splat3_Inkblot_Art_Academy_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/stages_splat3/Inkblot_Art_Academy.png */ \"./src/img/stages_splat3/Inkblot_Art_Academy.png\");\n/* harmony import */ var _img_stages_splat3_Mahi_Mahi_Resort_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/stages_splat3/Mahi-Mahi_Resort.png */ \"./src/img/stages_splat3/Mahi-Mahi_Resort.png\");\n/* harmony import */ var _img_stages_splat3_MakoMart_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/stages_splat3/MakoMart.png */ \"./src/img/stages_splat3/MakoMart.png\");\n/* harmony import */ var _img_stages_splat3_Manta_Maria_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/stages_splat3/Manta_Maria.png */ \"./src/img/stages_splat3/Manta_Maria.png\");\n/* harmony import */ var _img_stages_splat3_Mincemeat_Metalworks_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./img/stages_splat3/Mincemeat_Metalworks.png */ \"./src/img/stages_splat3/Mincemeat_Metalworks.png\");\n/* harmony import */ var _img_stages_splat3_Museum_dAlfonsino_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./img/stages_splat3/Museum_dAlfonsino.png */ \"./src/img/stages_splat3/Museum_dAlfonsino.png\");\n/* harmony import */ var _img_stages_splat3_Scorch_Gorge_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/stages_splat3/Scorch_Gorge.png */ \"./src/img/stages_splat3/Scorch_Gorge.png\");\n/* harmony import */ var _img_stages_splat3_Sturgeon_Shipyard_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/stages_splat3/Sturgeon_Shipyard.png */ \"./src/img/stages_splat3/Sturgeon_Shipyard.png\");\n/* harmony import */ var _img_stages_splat3_Umami_Ruins_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./img/stages_splat3/Umami_Ruins.png */ \"./src/img/stages_splat3/Umami_Ruins.png\");\n/* harmony import */ var _img_stages_splat3_Undertow_Spillway_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./img/stages_splat3/Undertow_Spillway.png */ \"./src/img/stages_splat3/Undertow_Spillway.png\");\n/* harmony import */ var _img_stages_splat3_Wahoo_World_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./img/stages_splat3/Wahoo_World.png */ \"./src/img/stages_splat3/Wahoo_World.png\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n function component() {\r\n   const element = document.createElement('div');\r\n\r\n  // Lodash, now imported by this script\r\n   element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\r\n\r\n   const Brinewater = new Image();\r\n      Brinewater.src = _img_stages_splat3_Brinewater_Springs_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\r\n\r\n      element.appendChild(Brinewater);\r\n\r\n   return element;\r\n }\r\n\r\n document.body.appendChild(component());\r\n\r\n\r\n// Import all of Bootstrap's JS\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/index.js?");
 
 /***/ }),
 
