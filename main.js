@@ -818,7 +818,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _custom_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./custom.scss */ \"./src/custom.scss\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n\r\n\r\n\r\n\r\n function component() {\r\n   const element = document.createElement('div');\r\n\r\n  // Lodash, now imported by this script\r\n   element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\r\n\r\n   return element;\r\n }\r\n\r\n document.body.appendChild(component());\r\n\r\n\r\n// Import all of Bootstrap's JS\r\n\r\n\r\n\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _custom_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./custom.scss */ \"./src/custom.scss\");\n/* harmony import */ var _img_stages_splat3_Brinewater_Springs_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/stages_splat3/Brinewater_Springs.png */ \"./src/img/stages_splat3/Brinewater_Springs.png\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n\r\n\r\n\r\n\r\n function component() {\r\n   const element = document.createElement('div');\r\n\r\n  // Lodash, now imported by this script\r\n   element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\r\n\r\n   return element;\r\n }\r\n\r\n document.body.appendChild(component());\r\n\r\n\r\n// Import all of Bootstrap's JS\r\n\r\n\r\nconst myIcon = new Image();\r\n  myIcon.src = _img_stages_splat3_Brinewater_Springs_png__WEBPACK_IMPORTED_MODULE_2__;\r\n\r\n  element.appendChild(myIcon);\r\n\r\n\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/index.js?");
 
 /***/ }),
 
@@ -996,6 +996,17 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 "use strict";
 eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 8 8%27%3e%3cpath fill=%27%23198754%27 d=%27M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z%27/%3e%3c/svg%3e\";\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/data:image/svg+xml,%253csvg_xmlns=%2527http://www.w3.org/2000/svg%2527_viewBox=%25270_0_8_8%2527%253e%253cpath_fill=%2527%2523198754%2527_d=%2527M2.3_6.73.6_4.53c-.4-1.04.46-1.4_1.1-.8l1.1_1.4_3.4-3.8c.6-.63_1.6-.27_1.2.7l-4_4.6c-.43.5-.8.4-1.1.1z%2527/%253e%253c/svg%253e?");
 
+/***/ }),
+
+/***/ "./src/img/stages_splat3/Brinewater_Springs.png":
+/*!******************************************************!*\
+  !*** ./src/img/stages_splat3/Brinewater_Springs.png ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"12d5b1972fbc5346bb3b.png\";\n\n//# sourceURL=webpack://banjos_splat3_pb_randomizer/./src/img/stages_splat3/Brinewater_Springs.png?");
+
 /***/ })
 
 /******/ 	});
@@ -1090,6 +1101,26 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
