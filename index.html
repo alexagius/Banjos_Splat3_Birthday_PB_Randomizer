@@ -18,7 +18,12 @@
     <div class="container-fluid">
     <form class="remember-input">
 
-        <div class="btn-group btn-group-justified btn-group-sm" role="group" style="padding: 2px" aria-label="Primary Gear Abilities Only">
+        <div class="card">
+        <div class="card-body">
+            <div class="card-title"><h4>Primary Gear Abilities Only</h4></div>
+            <div class="card-text">
+                <div class="btn-group btn-group-justified btn-group-sm" role="group" style="padding: 2px" id="primary-gear" aria-label="Primary Gear Abilities Only">
+
 
             <input type="checkbox" class="btn-check" id="primary-gear-OFF" name="primary-gear-OFF" checked autocomplete="on">
                 <label class="btn btn-outline-primary btn-block" for="primary-gear-OFF">
@@ -30,46 +35,126 @@
                     ON
                 </label>
         </div>
+            </div>
+        </div>
+        </div>
 
-        <div class="btn-group btn-group-justified btn-group-lg" role="group" style="padding: 2px" aria-label="Stages">
+        <div class="card">
+        <div class="card-body">
+            <div class="card-title"><h4>Mode</h4></div>
+            <div class="card-text">
+                <div class="btn-group btn-group-justified btn-group-sm" role="group" style="padding: 2px" id="modes" aria-label="Modes">
 
-            <input type="checkbox" class="btn-check" id="stage-Brinewater" name="stage-Brinewater" checked autocomplete="on">
-                <label class="btn btn-outline-primary btn-block" for="stage-Brinewater">
-                    Brinewater Springs
-                    <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Brinewater_Springs.png" /><img>
+
+            <input type="checkbox" class="btn-check" id="mode-Turf" name="mode-Turf" checked autocomplete="on">
+                <label class="btn btn-outline-primary btn-block" for="mode-Turf">
+                    Turf War
+                </label>
+            <input type="checkbox" class="btn-check" id="mode-Clam" name="mode-Clam" checked autocomplete="on">
+                <label class="btn btn-outline-primary btn-block" for="mode-Clam">
+                    Clam Blitz
+                </label>
+            <input type="checkbox" class="btn-check" id="mode-Zones" name="mode-Zones" checked autocomplete="on">
+                <label class="btn btn-outline-primary btn-block" for="mode-Zones">
+                    Splat Zones
+                </label>
+            <input type="checkbox" class="btn-check" id="mode-Tower" name="mode-Tower" checked autocomplete="on">
+                <label class="btn btn-outline-primary btn-block" for="mode-Tower">
+                    Tower Control
+                </label>
+            <input type="checkbox" class="btn-check" id="mode-Rainmaker" name="mode-Rainmaker" checked autocomplete="on">
+                <label class="btn btn-outline-primary btn-block" for="mode-Rainmaker">
+                    Rainmaker
                 </label>
 
-            <input type="checkbox" class="btn-check" id="stage-Eeltail" name="stage-Eeltail" checked autocomplete="on">
-                <label class="btn btn-outline-primary btn-block" for="stage-Eeltail">
-                    Eeltail Alley
-                    <img class="rounded" style="width: 150px; height: 80px;" src="assets/images/Eeltail_Alley.png" /><img>
-                </label>
+        </div>
+            </div>
+        </div>
+        </div>
 
-            <input type="checkbox" class="btn-check" id="stage-Flounder" name="stage-Flounder" checked autocomplete="on">
-                <label class="btn btn-outline-primary btn-block" for="stage-Flounder">Flounder Heights <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Flounder_Heights.png" /><img></label>
+        <div class="card">
+        <div class="card-body">
+            <div class="card-title"><h4>Stages</h4></div>
+<!--            TODO ADD COUNT-->
+            <div class="card-text">
+                <div class="btn-group btn-group-lg d-flex" role="group" style="padding: 2px" aria-label="Stages-1">
 
-            <input type="checkbox" class="btn-check" id="stage-Hagglefish" name="stage-Hagglefish" checked autocomplete="on">
-                <label class="btn btn-outline-primary btn-block" for="stage-Hagglefish">Hagglefish Market <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Hagglefish_Market.png" /><img></label>
+                    <input type="checkbox" class="btn-check" id="stage-Brinewater" name="stage-Brinewater" checked autocomplete="on">
+                        <label class="btn btn-outline-primary btn-block" for="stage-Brinewater">Brinewater Springs<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Brinewater_Springs.png" /><img> </label>
 
-            <input type="checkbox" class="btn-check" id="stage-Hammerhead" name="stage-Hammerhead" checked autocomplete="on">
-                <label class="btn btn-outline-primary btn-block" for="stage-Hammerhead">Hammerhead Bridge <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Hammerhead_Bridge.png" /><img></label>
+                    <input type="checkbox" class="btn-check" id="stage-Eeltail" name="stage-Eeltail" checked autocomplete="on">
+                        <label class="btn btn-outline-primary btn-block" for="stage-Eeltail">Eeltail Alley<hr>
+                            <img class="rounded" style="width: 150px; height: 80px;" src="assets/images/Eeltail_Alley.png" /><img></label>
 
+                    <input type="checkbox" class="btn-check" id="stage-Flounder" name="stage-Flounder" checked autocomplete="on">
+                        <label class="btn btn-outline-primary btn-block" for="stage-Flounder">Flounder Heights<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Flounder_Heights.png" /><img></label>
 
+                    <input type="checkbox" class="btn-check" id="stage-Hagglefish" name="stage-Hagglefish" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Hagglefish">Hagglefish Market<hr>
+                        <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Hagglefish_Market.png" /><img></label>
+                </div>
+                <div class="btn-group btn-group-lg d-flex" role="group" style="padding: 2px" aria-label="Stages-2">
+
+                    <input type="checkbox" class="btn-check" id="stage-Hammerhead" name="stage-Hammerhead" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Hammerhead">Hammerhead Bridge<hr>
+                        <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Hammerhead_Bridge.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Inkblot" name="stage-Inkblot" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Inkblot">Inkblot Art Academy<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Inkblot_Art_Academy.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Mahi" name="stage-Mahi" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Mahi">Mahi-Mahi Resort<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Mahi-Mahi_Resort.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Mako" name="stage-Mako" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Mako">Mako Mart<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/MakoMart.png" /><img></label>
+                </div>
+                <div class="btn-group btn-group-lg d-flex" role="group" style="padding: 2px" aria-label="Stages-3">
+
+                    <input type="checkbox" class="btn-check" id="stage-Manta" name="stage-Manta" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Manta">Manta Maria<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Manta_Maria.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Mincemeat" name="stage-Mincemeat" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Mincemeat">Mincemeat Metalworks<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Mincemeat_Metalworks.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Museum" name="stage-Museum" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Museum">Museum d'Alfonsino<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Museum_dAlfonsino.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Scorch" name="stage-Scorch" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Scorch">Scorch Gorge<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Scorch_Gorge.png" /><img></label>
+                </div>
+                <div class="btn-group btn-group-lg d-flex" role="group" style="padding: 2px" aria-label="Stages-4">
+
+                    <input type="checkbox" class="btn-check" id="stage-Sturgeon" name="stage-Sturgeon" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Sturgeon">Sturgeon Shipyard<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Sturgeon_Shipyard.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Umami" name="stage-Umami" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Umami">Umami_Ruins<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Umami_Ruins.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Undertow" name="stage-Undertow" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Undertow">Undertow Spillway<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Undertow_Spillway.png" /><img></label>
+
+                    <input type="checkbox" class="btn-check" id="stage-Wahoo" name="stage-Wahoo" checked autocomplete="on">
+                    <label class="btn btn-outline-primary btn-block" for="stage-Wahoo">Wahoo World<hr>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Wahoo_World.png" /><img></label>
+                </div>
+
+            </div>
+        </div>
         </div>
 
 
-<!--.png-->
-<!--Inkblot_Art_Academy.png-->
-<!--Mahi-Mahi_Resort.png-->
-<!--MakoMart.png-->
-<!--Manta_Maria.png-->
-<!--Mincemeat_Metalworks.png-->
-<!--Museum_dAlfonsino.png-->
-<!--Scorch_Gorge.png-->
-<!--Sturgeon_Shipyard.png-->
-<!--Umami_Ruins.png-->
-<!--Undertow_Spillway.png-->
-<!--Wahoo_World.png-->
 
 
 
@@ -82,10 +167,7 @@
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1">
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
+
           <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     </div>
