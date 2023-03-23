@@ -17,6 +17,19 @@ module.exports = {
           {
             loader: 'css-loader'
           },
+             {
+            // Loader for webpack to process CSS with PostCSS
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: function () {
+                  return [
+                    require('autoprefixer')
+                  ];
+                }
+              }
+            }
+          },
 
           {
             loader: 'sass-loader'
@@ -25,8 +38,22 @@ module.exports = {
       }
       ,{
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'assets/images/'
+            }
+          }
+        ]
+      }
+      ,{
+      test: /\.js$/,
+      enforce: 'pre',
+      use: ['source-map-loader'],
+    },
     ]
   }
 };
+

@@ -21,11 +21,18 @@
   },
   "homepage": "https://github.com/alexagius/Banjos_Splat3_Birthday_PB_Randomizer#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
     "gh-pages": "^5.0.0",
+    "jquery": "^3.6.4",
+    "jquery-form": "^4.3.0",
+    "node-sass": "^8.0.0",
     "postcss-loader": "^7.1.0",
+    "remember-input": "^1.0.1",
     "sass": "^1.59.3",
     "sass-loader": "^13.2.1",
+    "source-map-loader": "^4.0.1",
     "style-loader": "^3.3.2",
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1"
@@ -33,6 +40,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "mdb-ui-kit": "^6.2.0"
   }
 }
