@@ -76,7 +76,7 @@
 
                     <input type="checkbox" class="btn-check" id="stage-Brinewater" name="stage-Brinewater" checked autocomplete="on">
                         <label class="btn btn-outline-primary btn-block" for="stage-Brinewater">Brinewater Springs<hr>
-                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="assets/images/Brinewater_Springs.png" /><img> </label>
+                            <img class="rounded" style="width: 150px; height: 80px; vertical-align: bottom;" src="{{url_for('static', filename='dist/assets/images/Brinewater_Springs.png')}}" /><img> </label>
 
                     <input type="checkbox" class="btn-check" id="stage-Eeltail" name="stage-Eeltail" checked autocomplete="on">
                         <label class="btn btn-outline-primary btn-block" for="stage-Eeltail">Eeltail Alley<hr>
@@ -159,9 +159,10 @@
     </div>
     <div id="output2"></div>
 
-    <script src="{{ js_url }}" type="text/javascript"></script>
-    <link rel="stylesheet" href="{{url_for('static', filename='css/superhero_bootstrap.min.css')}}">
-    <script src="main.js"></script>
+    <script src="{{url_for('static', filename='dist/main.js')}}" type="text/javascript"></script>
+
+
+<!--    <script src="main.js"></script>-->
 
 
    </body>
