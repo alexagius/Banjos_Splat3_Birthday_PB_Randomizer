@@ -1,8 +1,8 @@
-from flask import render_template,jsonify
+from flask import render_template,jsonify,request
 from app import app
 
 @app.route('/')
-@app.route('/index')
+@app.route('/index', methods=['GET','POST'])
 def index():
     user = {'nickname': 'Miguel'}  # fake user
     return render_template('dist/index.html',
@@ -28,12 +28,13 @@ def index():
 
 
 @app.route('/random_selections', methods=['POST'])
-def accept_random(e, data, callback):
+def accept_random(e=None, data=None, callback=None):
     # return jsonify({
     #     'text': microsoft_translate(
     #         request.form['text'],
     #         request.form['sourceLang'],
     #         request.form['destLang']) })
+    # a = request.args.get('a', 0, type=int)
     print('lalalala')
     print(data)
     print(e)
@@ -42,3 +43,9 @@ def accept_random(e, data, callback):
     print(callback)
 
     return jsonify(e, data, callback, returnz)
+
+@app.route('/_add_numbers')
+def add_numbers():
+    a = request.args.get('a', 0, type=int)
+    b = request.args.get('b', 0, type=int)
+    return jsonify(result=a + b)
