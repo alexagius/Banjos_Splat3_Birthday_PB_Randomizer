@@ -109,6 +109,9 @@ function showResponse(responseText, statusText, xhr, $form)  {
     '\n\nThe output div should have already been updated with the responseText.');
 }
 
+var modesSelected = $('#modes label.checked input').val();
+console.log(modesSelected);
+
 
 
 
