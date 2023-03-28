@@ -1,1 +1,1 @@
-web: gunicorn manage:app --max-requests 2000
+web: gunicorn app:app
