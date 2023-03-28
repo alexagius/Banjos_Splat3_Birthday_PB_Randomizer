@@ -27,8 +27,8 @@ def index():
                            posts=posts)
 
 
-@app.route('/random_selections', methods=['POST'])
-def accept_random(e=None, data=None, callback=None):
+@app.route('/accept_random', methods=['POST'])
+def accept_random():
     # return jsonify({
     #     'text': microsoft_translate(
     #         request.form['text'],

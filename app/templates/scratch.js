@@ -114,3 +114,94 @@ console.log(modesSelected);
 //         $(destId).show();
 //     });
 // };
+
+
+
+// accept_random(e, data, callback);
+import { AJAXForm } from "@donutteam/ajax-form";
+AJAXForm.bindAll();
+
+
+
+
+
+$(function(){
+	$('#submit-splat').click(function(){
+		var user = $('#inputUsername').val();
+		var pass = $('#inputPassword').val();
+		$.ajax({
+			url: '/signUpUser',
+			data: $('form').serialize(),
+			type: 'POST',
+			success: function(response){
+				console.log(response);
+			},
+			error: function(error){
+				console.log(error);
+			}
+		});
+	});
+});
+
+
+
+
+$(function() {
+        $('#submit-splat').bind('click', function() {
+          $.getJSON('app/random_selections', {
+            a: $('input[primary-gear-OFF="a"]').val(),
+            b: $('input[primary-gear-ON="b"]').val()
+          }, function(data) {
+            $("#result").text(data.result);
+          });
+          return false;
+        });
+        });
+
+function accept_random(e, data, callback, sourceId, destId, loadingId) {
+    $.post('/random_selections', {
+        e: $(e).text(),
+        data: data,
+        callback: callback
+    }).done(function(selected) {
+        $(destId).text(selected['returnz'])
+        $(loadingId).hide();
+        $(destId).show();
+    }).fail(function() {
+        $(destId).text("{{ _('Error: Could not contact server.') }}");
+        $(loadingId).hide();
+        $(destId).show();
+    });
+};
+
+
+
+Remember.init({
+  // Global settings:
+  selector: "remember-input", // class applied to form elements
+  clearOnSubmit: false, // Clear the stored data when form is submitted
+  handleSubmit: true, // if true plugin will handle form submission via the onsubmit function
+  onSubmit: function (e, data) {
+
+      console.log(data);
+      console.log(e);
+      setTimeout(function() {
+            console.log("This message is shown after 3 seconds");
+            accept_random(data);
+        }, 3000);
+
+
+
+  }, // handles form submission
+  exclude: [], // name attributes to be excluded from storage
+  disabled: false // disable plugin
+});
+
+
+
+// $(document).ready(function(){
+//   $("form").submit(function(){
+//     alert("Submitted");
+//   });
+// });
+
