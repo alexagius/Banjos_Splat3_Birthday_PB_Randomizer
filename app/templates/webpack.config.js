@@ -54,6 +54,10 @@ module.exports = {
       use: ['source-map-loader'],
     },
     ]
+  },
+  resolve: {
+    modules: [path.resolve(__dirname, 'node_modules'), 'node_modules']
   }
+
 };
 

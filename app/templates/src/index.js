@@ -26,8 +26,10 @@ import Remember from 'remember-input';
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap';
 
-
 Remember.init();
+
+import { AJAXForm } from "@donutteam/ajax-form";
+AJAXForm.bindAll();
 
 
 
