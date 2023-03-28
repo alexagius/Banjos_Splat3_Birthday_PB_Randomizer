@@ -26,10 +26,84 @@ import Remember from 'remember-input';
 // Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap';
 
-Remember.init();
 
+
+
+// function translate(sourceLang, destLang, sourceId, destId, loadingId) {
+//     $(destId).hide();
+//     $(loadingId).show();
+//     $.post('/translate', {
+//         text: $(sourceId).text(),
+//         sourceLang: sourceLang,
+//         destLang: destLang
+//     }).done(function(translated) {
+//         $(destId).text(translated['text'])
+//         $(loadingId).hide();
+//         $(destId).show();
+//     }).fail(function() {
+//         $(destId).text("{{ _('Error: Could not contact server.') }}");
+//         $(loadingId).hide();
+//         $(destId).show();
+//     });
+// };
+
+setTimeout(function() {
+    console.log("This message is shown after 3 seconds");
+}, 3000);
+
+const accept_random = function (e, data, callback, sourceId, destId, loadingId) {
+    $.post('/random_selections', {
+        e: $(e).text(),
+        data: data,
+        callback: callback
+    }).done(function(selected) {
+        $(destId).text(selected['returnz'])
+        $(loadingId).hide();
+        $(destId).show();
+    }).fail(function() {
+        $(destId).text("{{ _('Error: Could not contact server.') }}");
+        $(loadingId).hide();
+        $(destId).show();
+    });
+};
+
+
+
+Remember.init({
+  // Global settings:
+  selector: "remember-input", // class applied to form elements
+  clearOnSubmit: false, // Clear the stored data when form is submitted
+  handleSubmit: true, // if true plugin will handle form submission via the onsubmit function
+  onSubmit: function (e, data, accept_random) {
+
+      console.log(data);
+      console.log(e);
+      setTimeout(function() {
+            console.log("This message is shown after 3 seconds");
+            accept_random(data);
+        }, 3000);
+
+
+
+  }, // handles form submission
+  exclude: [], // name attributes to be excluded from storage
+  disabled: false // disable plugin
+});
+
+
+
+// $(document).ready(function(){
+//   $("form").submit(function(){
+//     alert("Submitted");
+//   });
+// });
+
+
+
+// accept_random(e, data, callback);
 import { AJAXForm } from "@donutteam/ajax-form";
 AJAXForm.bindAll();
+
 
 
 
@@ -53,6 +127,8 @@ AJAXForm.bindAll();
 
 
 
+
+// console.log();
 
 
 // prepare the form when the DOM is ready
