@@ -11,7 +11,8 @@
 
 
     <div class="container-fluid">
-    <form class="remember-input" id="splatForm" action="comment.php" method="post">
+    <form class="remember-input" id="splatForm"  method="post">
+<!--action="{{ url_for('accept_random') }}"-->
 
         <div class="card">
         <div class="card-body">
@@ -162,15 +163,13 @@
         </div>
 
 
-        <input type="text" name="name">
 
-
-        <button type="submit" class="btn btn-primary" onclick="handleConsoleSubmit()">Submit</button>
+        <button type="submit" class="btn btn-primary" id="submit-splat" action="submit">Submit</button>
 <!--        onclick="ajaxSubmit"-->
 
     </form>
     </div>
-    <div id="output2"></div>
+   <span id=result>?</span>
 
     <script src="{{url_for('static', filename='dist/main.js')}}" type="text/javascript"></script>
 
