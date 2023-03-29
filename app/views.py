@@ -15,7 +15,7 @@ def index():
                            user=user)
 
 
-@app.route('/accept_random', methods=['POST'])
+@app.route('/accept_random', methods=['POST','GET'])
 def accept_random():
     # return jsonify({
     #     'text': microsoft_translate(
@@ -23,10 +23,10 @@ def accept_random():
     #         request.form['sourceLang'],
     #         request.form['destLang']) })
     # a = request.args.get('a', 0, type=int)
-    print('lalalala')
+    dict = {'lalalala':'this'}
 
 
-    return jsonify({'lala'})
+    return jsonify(dict)
 
 @app.route('/_add_numbers')
 def add_numbers():

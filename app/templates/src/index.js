@@ -28,24 +28,6 @@ import * as bootstrap from 'bootstrap';
 
 Remember.init();
 
-$(function(){
-	$('#submit-splat').click(function(){
-		var primary_gear_off = $('#primary-gear-OFF').val();
-		var primary_gear_on = $('#primary-gear-ON').val();
-		var primary_gear_grp = $('#primary-gear').val();
-		$.ajax({
-			url: '/accept_random',
-			data: $('form').serialize(),
-			type: 'POST',
-			success: function(response){
-				console.log(response);
-			},
-			error: function(error){
-				console.log(error);
-			}
-		});
-	});
-});
 
 
 
@@ -64,10 +46,53 @@ $(function(){
      console.log('la');
 
 
+
+
    return element;
  }
 
  document.body.appendChild(component());
+
+
+  function js_ajax() {
+   const element = document.createElement('script');
+
+    $(function(){
+	$('#submit-splat').submit(function(){
+		var primary_gear_off = $('#primary-gear-OFF').val();
+		var primary_gear_on = $('#primary-gear-ON').val();
+		var primary_gear_grp = $('#primary-gear').val();
+		$.ajax({
+			url: '/accept_random',
+			data: $('form').serialize(),
+			type: 'POST',
+			success: function(response){
+				console.log(response);
+			},
+			error: function(error){
+				console.log(error);
+			}
+		});
+	});
+});
+	 document.body.appendChild(js_ajax());
+  // Lodash, now imported by this script
+  //  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  //
+  //  const Brinewater = new Image();
+  //     Brinewater.src = _Brinewater;
+  //
+  //     element.appendChild(Brinewater);
+     console.log('lahaha');
+
+
+
+
+   return element;
+ }
+
+
+
 
 
 
