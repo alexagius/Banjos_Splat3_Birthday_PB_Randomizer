@@ -28,12 +28,24 @@ import * as bootstrap from 'bootstrap';
 
 Remember.init();
 
-
-
-console.log('FAFAFAFA');
-
-
-
+$(function(){
+	$('#submit-splat').click(function(){
+		var primary_gear_off = $('#primary-gear-OFF').val();
+		var primary_gear_on = $('#primary-gear-ON').val();
+		var primary_gear_grp = $('#primary-gear').val();
+		$.ajax({
+			url: '/accept_random',
+			data: $('form').serialize(),
+			type: 'POST',
+			success: function(response){
+				console.log(response);
+			},
+			error: function(error){
+				console.log(error);
+			}
+		});
+	});
+});
 
 
 

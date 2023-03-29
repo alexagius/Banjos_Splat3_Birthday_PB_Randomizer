@@ -55,7 +55,12 @@ def randomizer(mode_list,stage_list,primary_gear_abiities_only=None
 
 
 #ls.insert(0, "new")
-randomz = randomizer(mode_list,stage_list,primary_gear_abiities_only,recent_mode_list,recent_stage_list)
+randomz = randomizer(mode_list
+                     ,stage_list
+                     ,primary_gear_abiities_only
+                     ,recent_mode_list
+                     ,recent_stage_list
+                     )
 recent_mode_list = randomz['recent_mode_list']
 recent_stage_list = randomz['recent_stage_list']
 print(randomz['return_string'])

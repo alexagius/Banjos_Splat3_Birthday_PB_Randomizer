@@ -5,26 +5,14 @@ from app import app
 @app.route('/index', methods=['GET','POST'])
 def index():
     user = {'nickname': 'Miguel'}  # fake user
+    if request.method == 'GET':
+        print('GET IT GIRL')
+
+    if request.method == 'POST':
+        print('fuck you')
     return render_template('dist/index.html',
                            title='Home',
                            user=user)
-
-def index():
-    user = {'nickname': 'Miguel'}  # fake user
-    posts = [  # fake array of posts
-        {
-            'author': {'nickname': 'John'},
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': {'nickname': 'Susan'},
-            'body': 'The Avengers movie was so cool!'
-        }
-    ]
-    return render_template("index.html",
-                           title='Home',
-                           user=user,
-                           posts=posts)
 
 
 @app.route('/accept_random', methods=['POST'])
@@ -36,13 +24,9 @@ def accept_random():
     #         request.form['destLang']) })
     # a = request.args.get('a', 0, type=int)
     print('lalalala')
-    print(data)
-    print(e)
-    print(callback)
-    returnz = 'MOTHAFUCKA ITS DONE'
-    print(callback)
 
-    return jsonify(e, data, callback, returnz)
+
+    return jsonify({'lala'})
 
 @app.route('/_add_numbers')
 def add_numbers():
