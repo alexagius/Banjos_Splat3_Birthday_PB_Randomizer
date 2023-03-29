@@ -2,8 +2,7 @@ import _ from 'lodash';
 import $ from 'jquery';
 import jQuery from 'jquery';
 
-import ajaxForm from 'jquery-form';
-import ajaxSubmit from 'jquery-form';
+
 import './custom.scss';
 import _Brinewater from './img/stages_splat3/Brinewater_Springs.png';
 import _Eeltail from './img/stages_splat3/Eeltail_Alley.png';
@@ -36,13 +35,6 @@ Remember.init();
  function component() {
    const element = document.createElement('div');
 
-  // Lodash, now imported by this script
-  //  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  //
-  //  const Brinewater = new Image();
-  //     Brinewater.src = _Brinewater;
-  //
-  //     element.appendChild(Brinewater);
      console.log('la');
 
 
@@ -53,43 +45,6 @@ Remember.init();
 
  document.body.appendChild(component());
 
-
-  function js_ajax() {
-   const element = document.createElement('script');
-
-    $(function(){
-	$('#submit-splat').submit(function(){
-		var primary_gear_off = $('#primary-gear-OFF').val();
-		var primary_gear_on = $('#primary-gear-ON').val();
-		var primary_gear_grp = $('#primary-gear').val();
-		$.ajax({
-			url: '/accept_random',
-			data: $('form').serialize(),
-			type: 'POST',
-			success: function(response){
-				console.log(response);
-			},
-			error: function(error){
-				console.log(error);
-			}
-		});
-	});
-});
-	 document.body.appendChild(js_ajax());
-  // Lodash, now imported by this script
-  //  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  //
-  //  const Brinewater = new Image();
-  //     Brinewater.src = _Brinewater;
-  //
-  //     element.appendChild(Brinewater);
-     console.log('lahaha');
-
-
-
-
-   return element;
- }
 
 
 
